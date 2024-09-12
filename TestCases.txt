@@ -1,0 +1,87 @@
+Test Case 1: Page Load
+Test Case ID: TC-001
+Title: Verify successful loading of the SPF Record Generator page.
+Description: Ensure that the SPF Record Generator page opens without issues.
+Pre-conditions: Internet access.
+Steps:
+Open the browser.
+Navigate to: https://easydmarc.com/tools/spf-record-generator.
+Press "Enter".
+Expected Result: The page loads successfully, and the SPF Record Generator form is displayed.
+Priority: High
+
+Test Case 2: Domain Name Input
+Test Case ID: TC-002
+Title: Verify domain name input field.
+Description: Ensure the user can input a domain name correctly.
+Pre-conditions: SPF Record Generator page is open.
+Steps:
+Enter a domain name in the "Domain Name" field (e.g., example.com).
+Click on Generate button
+Expected Result: The domain name is entered correctly, without any errors or warnings.
+Priority: High
+
+Test Case 3: Include Providers in SPF Record
+Test Case ID: TC-003
+Title: Check the system correctly generates an SPF record with include input.
+Description: Ensure the user can select email providers (e.g., Google, Microsoft) for inclusion in the SPF record.
+Pre-conditions: SPF Record Generator page is open.
+Steps:
+Select one or more providers from the "Include Providers" section (e.g., Google).
+Click "Generate".
+Expected Result: The selected providers are correctly included in the generated SPF record.
+Priority: Medium
+
+Test Case 4: Generate SPF Record with Minimum Data
+Test Case ID: TC-004
+Title: Generate SPF record with minimal settings.
+Description: Check the system correctly generates an SPF record with only domain input.
+Pre-conditions: SPF Record Generator page is open.
+Steps:
+Enter a domain name (e.g., example.com).
+Click "Generate".
+Expected Result: The SPF record is generated successfully and displayed in the results field.
+Priority: High
+
+Test Case 5: Invalid Domain Name Validation
+Test Case ID: TC-005
+Title: Verify behavior when entering an invalid domain.
+Description: Ensure that the tool properly handles and validates incorrect domain inputs.
+Pre-conditions: SPF Record Generator page is open.
+Steps:
+Enter an invalid domain name (e.g., invalid_domain or example@.com).
+Click "Generate".
+Expected Result: The tool displays the "Please provide a valid domain" message
+Priority: High
+
+Test Case 6: Copy SPF Record to Clipboard
+Test Case ID: TC-006
+Title: Check the "Copy" functionality.
+Description: Ensure that the user can copy the generated SPF record to the clipboard.
+Pre-conditions: SPF record has been successfully generated.
+Steps:
+Generate the SPF record.
+Click on the "Copy" button.
+Expected Result: The SPF record is successfully copied to the clipboard, and the user receives a confirmation message.
+Priority: Medium
+
+Test Case 7: Check the Tooltips
+Test Case ID: TC-009
+Title: Check the functionality tooltips.
+Description: Ensure that the user can access tooltips explaining the functionality of the tool.
+Pre-conditions: SPF Record Generator page is open.
+Steps:
+Hover over or click any help icon.
+Expected Result: A tooltip appears, providing information about SPF records or input fields.
+Priority: Low
+
+Test Case 8: Mobile View Responsiveness
+Test Case ID: TC-010
+Title: Verify mobile responsiveness of the SPF Record Generator.
+Description: Chwck that the page is responsive and works correctly on mobile devices.
+Pre-conditions: Access the tool on a mobile device or in mobile view using a browser’s developer tools.
+Steps:
+Open the SPF Record Generator on a mobile device.
+Perform various actions (enter domain, select providers, generate SPF record).
+Expected Result: The page elements are responsive and fully functional on mobile view.
+Priority: Medium
