@@ -17,7 +17,7 @@ export class Actions {
     }
 
     static click_and_type_text(selector,text) {
-        cy.get(selector).click().type(text, {delay:500})
+        cy.get(selector).click().type(text, {delay:300})
     }
 
     static click_on_all_elements_with_the_same_selector(selector) {

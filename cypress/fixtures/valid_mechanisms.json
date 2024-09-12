@@ -1,8 +1,0 @@
-{
-    "valid_mechanisms": {
-        "google": "include:_spf.google.com",
-        "outlook": "include:spf.protection.outlook.com",
-        "zendesk": "include:mail.zendesk.com",
-        "amazon": "include:amazonses.com"
-    }
-}    
