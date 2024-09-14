@@ -4,8 +4,5 @@ module.exports = defineConfig({
   e2e: {
     defaultCommandTimeout: 20000,
     supportFile: false,
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
   },
 });

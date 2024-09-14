@@ -77,5 +77,3 @@ export class SPFGenerator {
         return this.include_option_input
     }
 } 
-
-export const spfGenerator = new SPFGenerator()
