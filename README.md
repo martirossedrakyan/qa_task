@@ -23,7 +23,7 @@ It uses Cypress to automate end-to-end tests, ensuring that the key user flows w
 	   git clone https://github.com/martirossedrakyan/qa_task
 
 	2. Navigate to the project directory:
-	   cd your-repo
+	   cd qa_task
 
 	3. Install dependencies:
 	   npm install
@@ -36,8 +36,7 @@ It uses Cypress to automate end-to-end tests, ensuring that the key user flows w
 
 ## Project Structure
 	- `cypress/e2e` - Test cases.
-	- `cypress/factory` - Helper class to get web page test data.
-	- `cypress/pages` - Test Data about the web page
+	- `cypress/pages` - Web Page test data and Factory class to access the data
 	- `cypress/support` - Custom commands and utility functions.
 	- `cypress.json` - Cypress configuration file.
 	- `package.json` - Project dependencies and scripts.
